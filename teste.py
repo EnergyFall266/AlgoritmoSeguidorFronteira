@@ -7,8 +7,9 @@ listaObjetos=[]
 
 for i in range(numpydata.shape[0]):
     for j in range(numpydata.shape[1]):
-        if numpy.not_equal(numpydata[i][j],[255,255,255]):
-            print(numpydata[i][j])
+        # if numpy.not_equal(numpydata[i][j],[255,255,255]):
+        print(numpydata.shape[0])
+        print(numpydata.shape[1])
             
             
             
